@@ -1,0 +1,15 @@
+.scrollable-nav {
+  overflow-y: hidden;
+  overflow-x: scroll;
+  scrollbar-width:auto; /* O 'auto' */
+  scrollbar-color: #333 #f0f0f0; /* Cambia los colores según tu preferencia */
+}
+
+/* Estilos específicos para navegadores WebKit (como Chrome) */
+.scrollable-nav::-webkit-scrollbar {
+  height: 0px;
+}
+
+.scrollable-nav::-webkit-scrollbar-thumb {
+  background-color: #333; /* Color del thumb (agarre de la barra) */
+}
