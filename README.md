@@ -1,2 +1,2 @@
-# dise-os-tailwind
+# diseños-tailwind
 Diseños hechos en ReactJS y tailwindCSS
