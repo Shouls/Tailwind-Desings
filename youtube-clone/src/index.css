@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Estilos para el scrollbar en Chromium (y navegadores basados en Chromium) */
+
+/* Barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  border-radius: 9999px;
+}
+
+
+/* Control deslizante de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+  background: #8b8b8b; /* Cambia este color según tus preferencias */
+  border-radius: 9999px;
+}
+
+/* Fondo de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+  background: transparent; /* Cambia este color según tus preferencias */
+  border-radius: 9999px;
+}
+
